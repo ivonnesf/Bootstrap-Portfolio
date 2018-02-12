@@ -1,0 +1,166 @@
+.navigacion
+{
+    background-color: white; 
+    border-bottom: solid 2px lightgrey;
+    padding: 10px 0 0 0;
+}
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    margin: 5px;
+    font-weight: 500;
+}
+h2 {
+    font-size: 18px;
+}
+
+  .right{
+      float: right;
+  }
+ 
+.logo {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 30px;
+  background-color: #4aaaa5;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0; 
+  display: block;
+  float: left;
+}
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 925px;
+}
+.wrapperall{
+    background-image: url('../images/texture.png');
+    background-repeat: repeat;
+    margin: 0 auto;
+    height: 100%;
+    padding-bottom: 150px 
+}
+.NavMo{
+  margin: 5px 10px 5px 10px;
+}
+.containerNavig {
+    padding-left: 0;
+    
+}
+.menuli  {
+
+    height: 20px;
+    line-height: 0;
+	border-right: 1px solid #a6a6a6;
+    padding: 0 10px;
+    vertical-align: middle;
+
+}
+.menuli a {
+
+     text-decoration: none;
+     color: gray;
+}
+.menuli:hover {
+  
+    line-height: 0 !important;
+}
+.menuliactive {
+    color:gray;
+    font-weight: 700;
+}
+.menuli:last-child{
+    border-right: none;
+    padding-right: 0;
+}
+.ivonnephoto {
+    width: 200px;
+    float: left;
+    margin-right:10px;
+    margin-bottom: 10px  
+}
+.Abouttext {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    padding: 20px;
+    background: white;
+    border: solid #dddddd 1px;
+}
+.icon{
+    width: 30%;
+    max-width: 60px;
+    display: inline-block;
+    padding: 5px
+}
+.sidebar {
+    
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    padding: 20px;
+    background: white;
+    border: solid #dddddd 1px;
+
+}
+.grayFooter{
+background-color: #666666;
+text-align: center;
+color: white;
+border-top: solid 2px #4aaaa5;
+padding: 20px;
+margin: 0 auto;
+position: fixed;
+bottom: 0;
+width: 100%;
+
+
+}
+.submitForm{
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 18px;
+}
+
+.imageport {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.image1 {
+    background: url('../images/flor.jpg');
+}
+.image2 {
+    background: url('../images/desk.jpg');
+}
+.image3 {
+    background: url('../images/pink.jpg');
+}
+.image4 {
+    background: url('../images/red.jpg');
+}
+.image5 {
+    background: url('../images/leaf (1).jpg');
+}
+.image6 {
+    background: url('../images/leaf (2).jpg');
+}
+.text-center {
+    background-color: #4aaaa5;
+    color: #fff;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+image1, image2, image3, image4, image5, image6, a:hover{
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+.portfolioDiv {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
